@@ -3,11 +3,12 @@ package Data::Dump::AutoEncode;
 use strict;
 use warnings;
 use Carp;
+use Data::Dump;
 use Encode;
 use Term::Encoding;
 use parent 'Exporter';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT = qw/edump/;
 our @EXPORT_OK = qw/dump/;
 our $ENCODER;
